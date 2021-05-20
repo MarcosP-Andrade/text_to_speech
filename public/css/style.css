@@ -1,0 +1,41 @@
+body#scope{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif, 18pt;
+}
+h1#titulo{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35pt;
+    border-style: solid;
+    padding: 15px;
+}
+div#esquerda{
+    margin-top: 50px;
+    width: 100%;
+    border-right: solid 2px #00008B ;
+    padding: 60px;
+    position: relative;
+}
+div#direita{
+    position:relative;
+    margin-top: 95px;
+    margin-left: 80px;
+}
+div#direita div#comentarios{
+   margin: auto;
+   padding: 5px;
+   text-align: left;
+   font-size: 15pt;
+}
+.ouvir{
+    background-color:#00008B;
+    padding: 3px; 
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white; 
+}
+#source{
+    display: none;
+}
